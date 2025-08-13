@@ -1,8 +1,9 @@
 @use 'variables';
 
 .hero {
-    padding-top: 64px;
-    padding-bottom: 100px;
+    height: 100vh;
+    padding-top: 5%;
+    padding-bottom: 10%;
     background-image: url(../images/fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,8 +25,10 @@
     }
 
     &__text {
-        margin-top: 64px;
-        margin-bottom: 64px;
+        // margin-top: 64px;
+        // margin-bottom: 64px;
+        margin-top: 10%;
+        margin-bottom: 10%;
         font-size: 40px;
         line-height: 56px;
         font-weight: 800;
